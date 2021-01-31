@@ -58,8 +58,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PlayerMovement.cs" />
-     <Compile Include="Assets\mainMenu.cs" />
+     <Compile Include="Assets\LevelGeneration.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Collectibles\HealthCollectible.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI\CatAI.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAnimations.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerCollisions.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInventory.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\Spells\PoopSpell.cs" />
+     <Compile Include="Assets\Scripts\Player\Spells\Spell.cs" />
+     <Compile Include="Assets\Scripts\PoolObject.cs" />
+     <Compile Include="Assets\Scripts\ProjectileCollisions.cs" />
+     <Compile Include="Assets\Scripts\mainMenu.cs" />
+     <Compile Include="Assets\SpawnWall.cs" />
+     <Compile Include="Assets\cameraControl.cs" />
+     <Compile Include="Assets\roomType.cs" />
+     <Compile Include="Assets\spawnRoom.cs" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>/home/jfoldesi/Programming/CuHackingGame/CuHackingGame/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>

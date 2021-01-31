@@ -26,8 +26,9 @@ public class CatAI : MonoBehaviour
         if (time >= interpolationPeriod)
         {
             time = time - interpolationPeriod;
-
-            // Shoot();
+            
+            print("fack");
+            Shoot();
             animator.Play("CatShoot");
         }
     }
