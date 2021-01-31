@@ -5,61 +5,40 @@ using UnityEngine;
 public class CatAI : MonoBehaviour
 {
 
+    private float time = 0.0f;
+    public float interpolationPeriod = 0.5f;
     public GameObject bullet;
     public GameObject player;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
-    public float cooldown;
 
 
     private void Start()
     {
         ObjectPooler.instance.CreatePool(bullet, 50);
         animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-
-        StartCoroutine(Shoot());
-        animator.Play("CatIdle");
+        
     }
 
-
-<<<<<<< HEAD
-
-    IEnumerator Shoot()
+    void Update()
     {
-        animator.Play("CatIdle");
-        yield return new WaitForSeconds(cooldown);
-        if (player != null)
-        {
-=======
+        time += Time.deltaTime;
+
         if (time >= interpolationPeriod)
         {
             time = time - interpolationPeriod;
             
             print("fack");
             Shoot();
->>>>>>> 0f5b4bb40231dbe9c5d5757e98d6b21f30e40b1e
             animator.Play("CatShoot");
-            for (int i = 0; i < 3; i++)
-            {
-                
-                GameObject bullh = ObjectPooler.instance.ReuseObject(bullet, transform.position, Quaternion.identity);
-                Vector2 directionh = (player.transform.position - transform.position).normalized;
-                spriteRenderer.flipX = directionh.normalized.x < 0;
-                bullh.GetComponent<Bullet>().SetDirection(directionh);
-                yield return new WaitForSeconds(0.2f);
-
-            }
-            // if you manage to read this, just don't even ask please...
-            GameObject bull = ObjectPooler.instance.ReuseObject(bullet, transform.position, Quaternion.identity);
-            Vector2 direction = (player.transform.position - transform.position).normalized;
-            spriteRenderer.flipX = direction.normalized.x < 0;
-            bull.GetComponent<Bullet>().SetDirection(direction);
-
-            StartCoroutine(Shoot());
         }
-        
     }
 
 
+
+    void Shoot()
+    {
+        GameObject bull = ObjectPooler.instance.ReuseObject(bullet, transform.position, Quaternion.identity);
+        Vector2 direction = (player.transform.position - transform.position).normalized;
+        bull.GetComponent<Bullet>().SetDirection(direction);
+    }
 }

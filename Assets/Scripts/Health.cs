@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
         
     }
 
-    public virtual void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         Debug.Log("Oh fuck I got hit");
         health -= damage;
