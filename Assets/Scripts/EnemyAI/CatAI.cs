@@ -23,6 +23,7 @@ public class CatAI : MonoBehaviour
     }
 
 
+<<<<<<< HEAD
 
     IEnumerator Shoot()
     {
@@ -30,6 +31,14 @@ public class CatAI : MonoBehaviour
         yield return new WaitForSeconds(cooldown);
         if (player != null)
         {
+=======
+        if (time >= interpolationPeriod)
+        {
+            time = time - interpolationPeriod;
+            
+            print("fack");
+            Shoot();
+>>>>>>> 0f5b4bb40231dbe9c5d5757e98d6b21f30e40b1e
             animator.Play("CatShoot");
             for (int i = 0; i < 3; i++)
             {

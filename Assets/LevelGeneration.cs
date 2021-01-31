@@ -8,6 +8,8 @@ public class LevelGeneration : MonoBehaviour
 {
     public Transform[] startingPositions;
     public GameObject[] rooms; // 0 -> LR 1 -> LRB 2 -> LRT 3 -> LRBT 4 -> L 5 -> R 6 -> T 7 -> B
+    public GameObject monkee;
+    private bool monkeeSpawn = false;
 
     private int direction;
     public float moveAmount;
@@ -46,6 +48,7 @@ public class LevelGeneration : MonoBehaviour
 
     private void Move()
     {
+        Vector2 poss = transform.position;
         print(direction);
         if (direction == 1) // right
         {
@@ -121,6 +124,12 @@ public class LevelGeneration : MonoBehaviour
             {
                 stopGen = true;
             }
+        }
+
+        if (monkeeSpawn == false)
+        {
+            monkee.transform.position = poss;
+            monkeeSpawn = true;
         }
     }
 }
