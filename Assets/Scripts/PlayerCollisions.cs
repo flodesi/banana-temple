@@ -24,6 +24,7 @@ public class PlayerCollisions : MonoBehaviour
     {
         boxCollider = GetComponent<BoxCollider2D>();
         CalculateRaySpacing();
+        collisions = new CollisionInfo(horizontalRayCount * 2 + verticalRayCount * 2);
     }
 
     public void Move(Vector3 velocity)
@@ -92,7 +93,7 @@ public class PlayerCollisions : MonoBehaviour
             }
             if (hit)
             {
-
+                
                 velocity.x = (hit.distance - skinWidth) * directionX;
                 rayLength = hit.distance;
 
@@ -139,7 +140,6 @@ public class PlayerCollisions : MonoBehaviour
         Bounds bounds = boxCollider.bounds;
         bounds.Expand(skinWidth * -2);
 
-        // use the bounds extension methods, working on something else rn
         raycastOrigins.bottomLeft = new Vector2(bounds.min.x, bounds.min.y);
         raycastOrigins.bottomRight = new Vector2(bounds.max.x, bounds.min.y);
         raycastOrigins.topLeft = new Vector2(bounds.min.x, bounds.max.y);
@@ -177,6 +177,14 @@ public class PlayerCollisions : MonoBehaviour
         public Vector2 SupposedDelta;
         public Vector2 SupposedPosition;
         public Vector2 SupposedRawDelta;
+        public GameObject[] hitObjects;
+
+        public CollisionInfo(int hitBuffer)
+        {
+            Above = Below = Left = Right = false;
+            SupposedDelta = SupposedPosition = SupposedRawDelta = Vector2.zero;
+            hitObjects = new GameObject[hitBuffer];
+        }
 
         public void Reset()
         {
@@ -185,6 +193,10 @@ public class PlayerCollisions : MonoBehaviour
             SupposedDelta = Vector2.zero;
             SupposedPosition = Vector2.zero;
             SupposedRawDelta = Vector2.zero;
+            for (int i = 0; i < hitObjects.Length; i++)
+            {
+                hitObjects[i] = null;
+            }
         }
     }
 
