@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2628265646842049555}
   - component: {fileID: 1871913947357421384}
+  - component: {fileID: 3156961032647463501}
   m_Layer: 8
   m_Name: Wall Spawn (49)
   m_TagString: Untagged
@@ -45,6 +46,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3156961032647463501
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140993946815306986}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &261421232522739261
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,6 +82,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5778340980185717147}
   - component: {fileID: 3324198356101598693}
+  - component: {fileID: 8733027522277777294}
   m_Layer: 8
   m_Name: Wall Spawn (47)
   m_TagString: Untagged
@@ -90,6 +118,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8733027522277777294
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261421232522739261}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &364311531350187800
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,6 +154,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7883745759086764164}
   - component: {fileID: 754829423299457812}
+  - component: {fileID: 1240052245954208721}
   m_Layer: 8
   m_Name: Wall Spawn (83)
   m_TagString: Untagged
@@ -135,6 +190,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1240052245954208721
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364311531350187800}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &370273328013626283
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7279579507009793481}
   - component: {fileID: 4285375878634697471}
+  - component: {fileID: 393813163119493506}
   m_Layer: 8
   m_Name: Wall Spawn (57)
   m_TagString: Untagged
@@ -180,6 +262,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &393813163119493506
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370273328013626283}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &473066916277203610
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,6 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473066916277203611}
   - component: {fileID: 473066916277203684}
+  - component: {fileID: 1251658626018140335}
   m_Layer: 8
   m_Name: Wall Spawn (6)
   m_TagString: Untagged
@@ -225,6 +334,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1251658626018140335
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473066916277203610}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &473066916528252407
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473066916528252400}
   - component: {fileID: -643255309428504129}
-  - component: {fileID: -5615501839056723862}
+  - component: {fileID: 6385745458815504010}
   m_Layer: 8
   m_Name: Left
   m_TagString: Untagged
@@ -347,7 +482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 4
---- !u!61 &-5615501839056723862
+--- !u!61 &6385745458815504010
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -383,6 +518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473066916856388679}
   - component: {fileID: 473066916856388672}
+  - component: {fileID: 9190922201839035706}
   m_Layer: 8
   m_Name: Wall Spawn (4)
   m_TagString: Untagged
@@ -418,6 +554,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &9190922201839035706
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473066916856388678}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &473066917158141434
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,6 +590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473066917158141435}
   - component: {fileID: 473066917158141380}
+  - component: {fileID: 1409774638533461077}
   m_Layer: 8
   m_Name: Wall Spawn (9)
   m_TagString: Untagged
@@ -463,6 +626,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1409774638533461077
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473066917158141434}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &473066917395650667
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473066917395650676}
   - component: {fileID: 473066917395650677}
+  - component: {fileID: 2158230890791977278}
   m_Layer: 8
   m_Name: Wall Spawn (7)
   m_TagString: Untagged
@@ -508,6 +698,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2158230890791977278
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473066917395650667}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &481005222310573826
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3555065596370163263}
   - component: {fileID: 7559856919596416552}
+  - component: {fileID: 332939906118034577}
   m_Layer: 8
   m_Name: Wall Spawn (82)
   m_TagString: Untagged
@@ -553,6 +770,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &332939906118034577
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481005222310573826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1041136620784637714
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3900522084231372546}
   - component: {fileID: 7901273826794700879}
+  - component: {fileID: 7158474451915592737}
   m_Layer: 8
   m_Name: Wall Spawn (27)
   m_TagString: Untagged
@@ -598,6 +842,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7158474451915592737
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041136620784637714}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1046487037347145772
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4219629796159469702}
   - component: {fileID: 5470691663354817932}
+  - component: {fileID: 5622122741494076467}
   m_Layer: 8
   m_Name: Wall Spawn (72)
   m_TagString: Untagged
@@ -643,6 +914,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5622122741494076467
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046487037347145772}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1094918066227031099
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7112781314308017036}
   - component: {fileID: 1449393508435418747}
+  - component: {fileID: 1449510483344314305}
   m_Layer: 8
   m_Name: Wall Spawn (23)
   m_TagString: Untagged
@@ -688,6 +986,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1449510483344314305
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094918066227031099}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1212076964830877884
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +1022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2371854072471401356}
   - component: {fileID: 6460299012733017161}
+  - component: {fileID: 8176740134343986761}
   m_Layer: 8
   m_Name: Wall Spawn (50)
   m_TagString: Untagged
@@ -733,6 +1058,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8176740134343986761
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212076964830877884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1341386861039187169
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7846595743337918619}
   - component: {fileID: 1683715082019017988}
+  - component: {fileID: 5716085624519938280}
   m_Layer: 8
   m_Name: Wall Spawn (22)
   m_TagString: Untagged
@@ -778,6 +1130,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5716085624519938280
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341386861039187169}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1417221003922835234
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,6 +1166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3872083343414874968}
   - component: {fileID: 7262653301037664542}
+  - component: {fileID: 6517645993399737212}
   m_Layer: 8
   m_Name: Wall Spawn (18)
   m_TagString: Untagged
@@ -823,6 +1202,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &6517645993399737212
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417221003922835234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1422458854950366260
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +1238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8474438363245657507}
   - component: {fileID: 5136328614759448121}
+  - component: {fileID: 8707396538296265468}
   m_Layer: 8
   m_Name: Wall Spawn (43)
   m_TagString: Untagged
@@ -868,6 +1274,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8707396538296265468
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422458854950366260}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1444930983659608059
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +1310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2244474601933911098}
   - component: {fileID: 4950207645557501826}
+  - component: {fileID: 80621411470891610}
   m_Layer: 8
   m_Name: Wall Spawn (55)
   m_TagString: Untagged
@@ -913,6 +1346,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &80621411470891610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444930983659608059}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1450681744137231244
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +1382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7074483488234928281}
   - component: {fileID: 1115267963241524693}
+  - component: {fileID: 3939658611402948826}
   m_Layer: 8
   m_Name: Wall Spawn (88)
   m_TagString: Untagged
@@ -958,6 +1418,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3939658611402948826
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450681744137231244}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1574374831529972605
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +1454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2517347719573784457}
   - component: {fileID: 486297464331744358}
+  - component: {fileID: 7160941643472898623}
   m_Layer: 8
   m_Name: Wall Spawn (67)
   m_TagString: Untagged
@@ -1003,6 +1490,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7160941643472898623
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574374831529972605}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1714129493881275678
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,6 +1526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3796137122083870726}
   - component: {fileID: 5842992804580638070}
+  - component: {fileID: 4751543612788666820}
   m_Layer: 8
   m_Name: Wall Spawn (20)
   m_TagString: Untagged
@@ -1048,6 +1562,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &4751543612788666820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714129493881275678}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1750025799122430289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,6 +1598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6665331038325181486}
   - component: {fileID: 279286916532511860}
+  - component: {fileID: 7428121662512331356}
   m_Layer: 8
   m_Name: Wall Spawn (53)
   m_TagString: Untagged
@@ -1093,6 +1634,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7428121662512331356
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750025799122430289}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1852705333033799545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,6 +1670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3381265066462127497}
   - component: {fileID: 7024030207696604499}
+  - component: {fileID: 1194655227986665485}
   m_Layer: 8
   m_Name: Wall Spawn (81)
   m_TagString: Untagged
@@ -1138,6 +1706,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1194655227986665485
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852705333033799545}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1943273975951145074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,6 +1742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6976409629115286726}
   - component: {fileID: 8246416033021855268}
+  - component: {fileID: 3336858508319679743}
   m_Layer: 8
   m_Name: Wall Spawn (61)
   m_TagString: Untagged
@@ -1183,6 +1778,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3336858508319679743
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1943273975951145074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2014598042294301430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1193,6 +1814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5621391798012583267}
   - component: {fileID: 4485745883910289057}
+  - component: {fileID: 320577264392432244}
   m_Layer: 8
   m_Name: Wall Spawn (34)
   m_TagString: Untagged
@@ -1228,6 +1850,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &320577264392432244
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014598042294301430}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2357932123019810236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,6 +1886,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5444333630106817869}
   - component: {fileID: 3863304569033424371}
+  - component: {fileID: 434178406061177553}
   m_Layer: 8
   m_Name: Wall Spawn (77)
   m_TagString: Untagged
@@ -1273,6 +1922,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &434178406061177553
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2357932123019810236}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2376191220180323859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6394913960836670295}
   - component: {fileID: 8297837142423006731}
+  - component: {fileID: 3269713913509827872}
   m_Layer: 8
   m_Name: Wall Spawn (51)
   m_TagString: Untagged
@@ -1318,6 +1994,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3269713913509827872
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2376191220180323859}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2462521073636933555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,6 +2030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5906106898264962418}
   - component: {fileID: 6589986092567678677}
+  - component: {fileID: 1632719102725105956}
   m_Layer: 8
   m_Name: Wall Spawn (86)
   m_TagString: Untagged
@@ -1363,6 +2066,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1632719102725105956
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2462521073636933555}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &2854962861668029337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,6 +2102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5444903191972018794}
   - component: {fileID: 54764282125467465}
+  - component: {fileID: 5954450929787494528}
   m_Layer: 8
   m_Name: Wall Spawn (62)
   m_TagString: Untagged
@@ -1408,6 +2138,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5954450929787494528
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2854962861668029337}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3050195161717522090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1418,6 +2174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33664291811530058}
   - component: {fileID: 3609033349485627571}
+  - component: {fileID: 322310930630670347}
   m_Layer: 8
   m_Name: Wall Spawn (70)
   m_TagString: Untagged
@@ -1453,6 +2210,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &322310930630670347
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3050195161717522090}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3180916871138095809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +2246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9097921340637305265}
   - component: {fileID: 3176800172661424149}
+  - component: {fileID: 4306101086749566443}
   m_Layer: 8
   m_Name: Wall Spawn (80)
   m_TagString: Untagged
@@ -1498,6 +2282,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &4306101086749566443
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3180916871138095809}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3233453220765153060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +2318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6822111810266972065}
   - component: {fileID: 882186237315880065}
+  - component: {fileID: 767181920364747318}
   m_Layer: 8
   m_Name: Wall Spawn (25)
   m_TagString: Untagged
@@ -1543,6 +2354,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &767181920364747318
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233453220765153060}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3467084331349550617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +2390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4645222060925523643}
   - component: {fileID: 31904293571096496}
+  - component: {fileID: 7681903800776195165}
   m_Layer: 8
   m_Name: Wall Spawn (37)
   m_TagString: Untagged
@@ -1588,6 +2426,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7681903800776195165
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467084331349550617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3703823080843001265
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,6 +2462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1841802342927336364}
   - component: {fileID: 8912665898442226459}
+  - component: {fileID: 3643715414834137644}
   m_Layer: 8
   m_Name: Wall Spawn (79)
   m_TagString: Untagged
@@ -1633,6 +2498,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3643715414834137644
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703823080843001265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3795162589537655160
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +2534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2326299010898162105}
   - component: {fileID: 7253568095272348084}
+  - component: {fileID: 8160222948503725264}
   m_Layer: 8
   m_Name: Wall Spawn (89)
   m_TagString: Untagged
@@ -1678,6 +2570,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8160222948503725264
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3795162589537655160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3813765954625433962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +2606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6092126343559191408}
   - component: {fileID: 1705192545989057064}
+  - component: {fileID: 2476253861251810639}
   m_Layer: 8
   m_Name: Wall Spawn (48)
   m_TagString: Untagged
@@ -1723,6 +2642,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2476253861251810639
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3813765954625433962}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &3824109300346260448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +2678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3690362368985211422}
   - component: {fileID: 1533264696155401821}
+  - component: {fileID: 152505893954614006}
   m_Layer: 8
   m_Name: Wall Spawn (24)
   m_TagString: Untagged
@@ -1768,6 +2714,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &152505893954614006
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3824109300346260448}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4188191701867084927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +2750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4095628533760121537}
   - component: {fileID: 8067771047838472128}
+  - component: {fileID: 8041242077574712410}
   m_Layer: 8
   m_Name: Wall Spawn (5)
   m_TagString: Untagged
@@ -1813,6 +2786,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8041242077574712410
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4188191701867084927}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4254246135848080129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,6 +2822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6681306804534567500}
   - component: {fileID: 6070152345442244472}
+  - component: {fileID: 8212096482777333949}
   m_Layer: 8
   m_Name: Wall Spawn (36)
   m_TagString: Untagged
@@ -1858,6 +2858,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8212096482777333949
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254246135848080129}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4350594379358783203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,6 +2894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2672745003214197974}
   - component: {fileID: 6071783604000178609}
+  - component: {fileID: 2595042466928031069}
   m_Layer: 8
   m_Name: Wall Spawn (35)
   m_TagString: Untagged
@@ -1903,6 +2930,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2595042466928031069
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4350594379358783203}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4826866829316447879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +2966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5691218202013767183}
   - component: {fileID: 529077301300379275}
+  - component: {fileID: 4430012555838395241}
   m_Layer: 8
   m_Name: Wall Spawn (26)
   m_TagString: Untagged
@@ -1948,6 +3002,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &4430012555838395241
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826866829316447879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4894095500535675426
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,6 +3038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3030503921892317296}
   - component: {fileID: 2570591111175616899}
+  - component: {fileID: 5057563069933824492}
   m_Layer: 8
   m_Name: Wall Spawn (85)
   m_TagString: Untagged
@@ -1993,6 +3074,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5057563069933824492
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4894095500535675426}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &4961177761977021624
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +3110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017123274764842823}
   - component: {fileID: 3770817716487176314}
+  - component: {fileID: 5752489367742734851}
   m_Layer: 8
   m_Name: Wall Spawn (63)
   m_TagString: Untagged
@@ -2038,6 +3146,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5752489367742734851
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961177761977021624}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5119344297634850961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +3182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7376333444428440526}
   - component: {fileID: 3524543596968239574}
+  - component: {fileID: 291781980719341277}
   m_Layer: 8
   m_Name: Wall Spawn (45)
   m_TagString: Untagged
@@ -2083,6 +3218,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &291781980719341277
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5119344297634850961}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5280909868089262497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +3254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4722733385346532789}
   - component: {fileID: 8018019941300319015}
+  - component: {fileID: 6767720079269162456}
   m_Layer: 8
   m_Name: Wall Spawn (30)
   m_TagString: Untagged
@@ -2128,6 +3290,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &6767720079269162456
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5280909868089262497}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5373121978805390682
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +3326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122126837114349477}
   - component: {fileID: 2709790817503556944}
+  - component: {fileID: 2188423093741041684}
   m_Layer: 8
   m_Name: Wall Spawn (78)
   m_TagString: Untagged
@@ -2173,6 +3362,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2188423093741041684
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5373121978805390682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5391272724655311704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2183,6 +3398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7730946068897392768}
   - component: {fileID: 102856863327108987}
+  - component: {fileID: 1120004818504068964}
   m_Layer: 8
   m_Name: Wall Spawn (54)
   m_TagString: Untagged
@@ -2218,6 +3434,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1120004818504068964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5391272724655311704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5466173053692300691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2228,6 +3470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1343926266903128394}
   - component: {fileID: 3000823458702920059}
+  - component: {fileID: 3584287431828802188}
   m_Layer: 8
   m_Name: Wall Spawn (44)
   m_TagString: Untagged
@@ -2263,6 +3506,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3584287431828802188
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466173053692300691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5527548682719389918
 GameObject:
   m_ObjectHideFlags: 0
@@ -2273,6 +3542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3032992942310150431}
   - component: {fileID: 1594062695341250966}
+  - component: {fileID: 2527088719379517818}
   m_Layer: 8
   m_Name: Wall Spawn (38)
   m_TagString: Untagged
@@ -2308,6 +3578,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2527088719379517818
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527548682719389918}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5577495350679552315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +3614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5202294490436630596}
   - component: {fileID: 6562315492808833388}
+  - component: {fileID: 1626064212767794505}
   m_Layer: 8
   m_Name: Wall Spawn (75)
   m_TagString: Untagged
@@ -2353,6 +3650,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1626064212767794505
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5577495350679552315}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5686753815232279044
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,6 +3686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8657944033332198086}
   - component: {fileID: 7658122259364234880}
+  - component: {fileID: 929833771595314718}
   m_Layer: 8
   m_Name: Wall Spawn (21)
   m_TagString: Untagged
@@ -2398,6 +3722,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &929833771595314718
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5686753815232279044}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5782220941810972594
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +3758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5509402833206296175}
   - component: {fileID: 7587132102703585486}
+  - component: {fileID: 1191878306401077334}
   m_Layer: 8
   m_Name: Wall Spawn (17)
   m_TagString: Untagged
@@ -2443,6 +3794,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1191878306401077334
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5782220941810972594}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5837047317411942143
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +3830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3803556645646690627}
   - component: {fileID: 2404543971973136738}
+  - component: {fileID: 7337173387801744213}
   m_Layer: 8
   m_Name: Wall Spawn (84)
   m_TagString: Untagged
@@ -2488,6 +3866,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7337173387801744213
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837047317411942143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &5972421903993238613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2498,6 +3902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7592632493394889258}
   - component: {fileID: 3906441720161388355}
+  - component: {fileID: 4490764195346563730}
   m_Layer: 8
   m_Name: Wall Spawn (46)
   m_TagString: Untagged
@@ -2533,6 +3938,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &4490764195346563730
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5972421903993238613}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6094203071765925003
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,6 +3974,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6505282414224625711}
   - component: {fileID: 7209894030220914677}
+  - component: {fileID: 8527846114466270825}
   m_Layer: 8
   m_Name: Wall Spawn (65)
   m_TagString: Untagged
@@ -2578,6 +4010,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8527846114466270825
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6094203071765925003}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6153381843092489760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,6 +4046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4419452962270326858}
   - component: {fileID: 3572235887422803272}
+  - component: {fileID: 557759201036849419}
   m_Layer: 8
   m_Name: Wall Spawn (32)
   m_TagString: Untagged
@@ -2623,6 +4082,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &557759201036849419
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6153381843092489760}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6200588966426858825
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,6 +4118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6072617764244814090}
   - component: {fileID: 568262111577795785}
+  - component: {fileID: 79293226732355005}
   m_Layer: 8
   m_Name: Wall Spawn (31)
   m_TagString: Untagged
@@ -2668,6 +4154,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &79293226732355005
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200588966426858825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6225523649664693930
 GameObject:
   m_ObjectHideFlags: 0
@@ -2678,6 +4190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2336898840711999281}
   - component: {fileID: 5057819264599309912}
+  - component: {fileID: 5914960251346534195}
   m_Layer: 8
   m_Name: Wall Spawn (71)
   m_TagString: Untagged
@@ -2713,6 +4226,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5914960251346534195
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6225523649664693930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6240832141384941835
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,6 +4262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2447495303601106825}
   - component: {fileID: 7609101623949115133}
+  - component: {fileID: 7811950429067099764}
   m_Layer: 8
   m_Name: Wall Spawn (76)
   m_TagString: Untagged
@@ -2758,6 +4298,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &7811950429067099764
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240832141384941835}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6437718666568395792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +4334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1308324666124101759}
   - component: {fileID: 9005435509766294785}
+  - component: {fileID: 2199647225027080016}
   m_Layer: 8
   m_Name: Wall Spawn (74)
   m_TagString: Untagged
@@ -2803,6 +4370,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &2199647225027080016
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6437718666568395792}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &6530218471298382157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,6 +4406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5652940176184766559}
   - component: {fileID: 7441275006011003077}
+  - component: {fileID: 5217463158028846302}
   m_Layer: 8
   m_Name: Wall Spawn (66)
   m_TagString: Untagged
@@ -2848,6 +4442,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5217463158028846302
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530218471298382157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7024408832925778041
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,6 +4478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7949455934841856803}
   - component: {fileID: 4444264324078175903}
+  - component: {fileID: 227183394665046866}
   m_Layer: 8
   m_Name: Wall Spawn (19)
   m_TagString: Untagged
@@ -2893,6 +4514,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &227183394665046866
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7024408832925778041}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7216470990049329180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,6 +4550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359943169290581201}
   - component: {fileID: 2615443492480582346}
+  - component: {fileID: 1502497269248958982}
   m_Layer: 8
   m_Name: Wall Spawn (59)
   m_TagString: Untagged
@@ -2938,6 +4586,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1502497269248958982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7216470990049329180}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7294607730617632364
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,6 +4622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5653708094270225277}
   - component: {fileID: 2738510388817001786}
+  - component: {fileID: 8587300945828707128}
   m_Layer: 8
   m_Name: Wall Spawn (56)
   m_TagString: Untagged
@@ -2983,6 +4658,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8587300945828707128
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294607730617632364}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7307619132849171143
 GameObject:
   m_ObjectHideFlags: 0
@@ -2993,6 +4694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6233722763720220521}
   - component: {fileID: 4975295072479036022}
+  - component: {fileID: 6614532365466247101}
   m_Layer: 8
   m_Name: Wall Spawn (64)
   m_TagString: Untagged
@@ -3028,6 +4730,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &6614532365466247101
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7307619132849171143}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7462147654894583331
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +4766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6589632141960668924}
   - component: {fileID: 2300847013380638099}
+  - component: {fileID: 1936417757002500982}
   m_Layer: 8
   m_Name: Wall Spawn (16)
   m_TagString: Untagged
@@ -3073,6 +4802,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1936417757002500982
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462147654894583331}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7721602730358432657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3083,6 +4838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8290311618520844551}
   - component: {fileID: 1520541195255761648}
+  - component: {fileID: 4620614496514445993}
   m_Layer: 8
   m_Name: Wall Spawn (69)
   m_TagString: Untagged
@@ -3118,6 +4874,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &4620614496514445993
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7721602730358432657}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &7842189958362253665
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,6 +4910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7209218639068342939}
   - component: {fileID: 4407659694241508262}
+  - component: {fileID: 3912922968317086899}
   m_Layer: 8
   m_Name: Wall Spawn (52)
   m_TagString: Untagged
@@ -3163,6 +4946,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3912922968317086899
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7842189958362253665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8204381971875416034
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,6 +4982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2651646831003905880}
   - component: {fileID: 5241309145869483972}
+  - component: {fileID: 3240609375062784728}
   m_Layer: 8
   m_Name: Wall Spawn (39)
   m_TagString: Untagged
@@ -3208,6 +5018,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3240609375062784728
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8204381971875416034}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8507789534510905991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +5054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6269240222315756211}
   - component: {fileID: 6142618865935820210}
+  - component: {fileID: 3018299396225019504}
   m_Layer: 8
   m_Name: Wall Spawn (58)
   m_TagString: Untagged
@@ -3253,6 +5090,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &3018299396225019504
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8507789534510905991}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8516123731994879522
 GameObject:
   m_ObjectHideFlags: 0
@@ -3263,6 +5126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7008408922718230369}
   - component: {fileID: 8909436110410903696}
+  - component: {fileID: 8744618582173151611}
   m_Layer: 8
   m_Name: Wall Spawn (73)
   m_TagString: Untagged
@@ -3298,6 +5162,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8744618582173151611
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8516123731994879522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8557177579690076550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,6 +5198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8161236854590494439}
   - component: {fileID: 2491188311219463772}
+  - component: {fileID: 1397733771073889506}
   m_Layer: 8
   m_Name: Wall Spawn (42)
   m_TagString: Untagged
@@ -3343,6 +5234,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1397733771073889506
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8557177579690076550}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8695495978973887345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3353,6 +5270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3271511009926699572}
   - component: {fileID: 3862149132947206429}
+  - component: {fileID: 8790372421942520645}
   m_Layer: 8
   m_Name: Wall Spawn (60)
   m_TagString: Untagged
@@ -3388,6 +5306,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &8790372421942520645
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8695495978973887345}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8716155273340828561
 GameObject:
   m_ObjectHideFlags: 0
@@ -3398,6 +5342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4158651348665444610}
   - component: {fileID: 8489709595446661373}
+  - component: {fileID: 1397884338104079479}
   m_Layer: 8
   m_Name: Wall Spawn (29)
   m_TagString: Untagged
@@ -3433,6 +5378,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &1397884338104079479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8716155273340828561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8777302609256109831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3443,6 +5414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8462855505529706866}
   - component: {fileID: 49620568925396827}
+  - component: {fileID: 961717914923813272}
   m_Layer: 8
   m_Name: Wall Spawn (68)
   m_TagString: Untagged
@@ -3478,6 +5450,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &961717914923813272
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8777302609256109831}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &8839739969777407410
 GameObject:
   m_ObjectHideFlags: 0
@@ -3488,6 +5486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4552607295806095716}
   - component: {fileID: 7990993249516287086}
+  - component: {fileID: 5852338480038391875}
   m_Layer: 8
   m_Name: Wall Spawn (28)
   m_TagString: Untagged
@@ -3523,6 +5522,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5852338480038391875
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8839739969777407410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &9102454205762951962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,6 +5558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1840720914545361151}
   - component: {fileID: 3656592427461662024}
+  - component: {fileID: 9100314512815003283}
   m_Layer: 8
   m_Name: Wall Spawn (8)
   m_TagString: Untagged
@@ -3568,6 +5594,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &9100314512815003283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9102454205762951962}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &9148861120652040382
 GameObject:
   m_ObjectHideFlags: 0
@@ -3578,6 +5630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1368574798049208171}
   - component: {fileID: 6498737024994904116}
+  - component: {fileID: 5876229513536080143}
   m_Layer: 8
   m_Name: Wall Spawn (87)
   m_TagString: Untagged
@@ -3613,3 +5666,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - {fileID: 5308373360323402736, guid: 110c2ef7bff0f79d387928721e38c378, type: 3}
+--- !u!61 &5876229513536080143
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9148861120652040382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

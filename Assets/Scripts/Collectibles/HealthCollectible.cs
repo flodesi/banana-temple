@@ -6,7 +6,11 @@ public class HealthCollectible : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.gameObject.GetComponent<Health>().Heal(1);
-        Destroy(gameObject);
+        if (collision.gameObject.layer == 10)
+        {
+            collision.gameObject.GetComponent<Health>()?.Heal(1);
+            Destroy(gameObject);
+        }
+        
     }
 }
