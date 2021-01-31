@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(PlayerMovement))]
-[RequireComponent(typeof(PlayerActions))]
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerAnimations : MonoBehaviour
 {
 
     PlayerMovement playerMovement;
-    PlayerActions playerActions;
     Animator animator;
     SpriteRenderer spriteRenderer;
     bool overrideAnim;
@@ -19,7 +17,6 @@ public class PlayerAnimations : MonoBehaviour
     void Start()
     {
         playerMovement = GetComponent<PlayerMovement>();
-        playerActions = GetComponent<PlayerActions>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }

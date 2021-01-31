@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 6f0ec4b7ae4aa2746a0c1bae482e3611
+guid: 8599fc54ae768f743b2738a51d5c6387
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7328466624509655736
-    second: CatShoot-Sheet_0
-  - first:
-      213: 3603283525063020574
-    second: CatShoot-Sheet_1
-  - first:
-      213: 3038310589865810083
-    second: CatShoot-Sheet_2
-  - first:
-      213: -4349427198550539671
-    second: CatShoot-Sheet_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +40,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -99,7 +87,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CatShoot-Sheet_0
+      name: MonkeyFacingRunning-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,14 +101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba343e2191f3b560800000000000000
-      internalID: 7328466624509655736
+      spriteID: c224dfc6feba027d0800000000000000
+      internalID: -2945165111486234068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CatShoot-Sheet_1
+      name: MonkeyFacingRunning-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -134,50 +122,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e101668664f610230800000000000000
-      internalID: 3603283525063020574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CatShoot-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a85242426f3a2a20800000000000000
-      internalID: 3038310589865810083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CatShoot-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96209f5d10bb3a3c0800000000000000
-      internalID: -4349427198550539671
+      spriteID: b163795aa63d1ae20800000000000000
+      internalID: 3360199251993245211
       vertices: []
       indices: 
       edges: []

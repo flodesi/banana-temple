@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Poop : PoolObject
+public class Bullet : PoolObject
 {
     private ProjectileCollisions collisions;
     private Vector2 direction;
     public float speed;
+    public int damage;
 
     public void Start()
     {
@@ -24,10 +25,10 @@ public class Poop : PoolObject
     {
         collisions.PreUpdate();
         collisions.Move(direction * speed * Time.deltaTime);
-        GameObject enemy = collisions.collisions.FirstObjectHit();
-        if (enemy != null)
+        GameObject hit = collisions.collisions.FirstObjectHit();
+        if (hit != null)
         {
-            enemy.GetComponent<Enemy>()?.GetHit(20);
+            hit.GetComponent<Health>()?.TakeDamage(damage);
             Destroy();
         }
     }

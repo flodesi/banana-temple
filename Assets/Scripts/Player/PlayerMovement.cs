@@ -60,4 +60,6 @@ public class PlayerMovement : MonoBehaviour
         last_direction = direction == Vector2.zero ? last_direction : direction;
     }
 
+   
+
 }
